@@ -1,0 +1,188 @@
+html {
+	background-color: rgb(255, 255, 255);
+}
+
+body {                                             /*style for the whole body*/
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+	text-align: justify;
+	line-height: 1.5;
+	font-size: 16px;
+}
+
+a {                       
+	text-decoration: none;                         /*remove the underline for url*/
+	color: #3B82F6;
+}
+
+a:hover, a:focus {                                  /*when place at the link, will show different color*/
+	color: #1D4ED8;
+}
+
+h1, h2, h3 {
+	font-family: 'Inter', sans-serif;
+	text-transform: uppercase;
+	text-decoration: underline;
+	color: #44186b;
+}
+
+h1 {font-size: 2.5rem}
+h2 {font-size: 2rem}
+h3 {font-size: 1.75rem}
+
+#navbar {
+	display: flex;                                /*let 2 div arrange horizontally*/
+	max-width: 1200px;
+	margin: 0;	
+	padding: 8px;
+	align-items: center;
+}
+
+#MLMV {
+	font-size: 20px;
+}
+
+#logo-image {
+	height: 40px;
+	border: 2px solid black;
+	margin-right: 5px;
+}
+
+h1 {
+	text-align: center;
+	color: black;
+}
+
+#ML {
+	width: 100%;
+	object-fit: cover;                 /*maintaning the ratio of image*/
+	margin: 0;
+}
+
+#about {
+	display: flex;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 8px;
+}
+
+#description {
+	width: 50%;
+	padding-right: 8px;
+	word-wrap: break-word;
+	font-style: italic;
+}
+
+#algorithms {
+	width: 50%;
+}
+
+#algorithms-image {
+	border-radius: 20px;                /*make the border corner curved*/
+	height: 240px;
+	width: 100%;
+}
+
+.copyright {
+	color: grey;
+}
+
+#content {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 8px;
+}
+
+#welcome {
+	margin: 0;
+	word-wrap: break-word;               /*text wrap for a paragraph*/
+}
+
+h2 {
+	text-align: left;
+	margin-top: 0;
+	margin-bottom: 4px;
+}
+
+.start-now {
+	float: right;                         /*let the link word float at rightside*/
+}
+
+#table {
+	width: 100%;
+	border: 1px solid grey;
+	border-collapse: collapse;         /* collapse the border to become single line */
+}
+
+.header-row th {                        /*select all th*/
+	border: 1px solid grey;
+	padding: 8px;
+	background-color: #BFDBFE;
+	text-align: center;
+}
+
+.data-row td {                              /*select all td*/
+	/*border-right: 1px solid grey;*/       /*set the right border only so there is no horizontal line*/
+	padding: 8px ;
+	border:1px solid grey;
+}
+
+#table tr:nth-child(odd) {              /* select the nth row */
+	background-color: aliceblue;
+}
+
+#application {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 8px;
+}
+
+.form-group {
+	margin: 16px 0;
+}
+
+#application-form label {
+	font-weight: 600;
+}
+
+#application-form input, select, textarea {
+	padding: 8px;
+	font-size: 1.25 rem;
+	margin-top: 4px;
+	border-radius: 5px;
+	border: 1px solid gray;
+}
+
+.form-group textarea {
+	width: 80%;
+	font-family: 'Roboto', sans-serif;
+}
+
+.form-group input[type="checkbox"] {
+	width: 16px;
+	height: 16px;
+}
+
+.form-group input[type="submit"] {
+	background-color: #3B82F6;
+	color: white;
+	font-weight: 500;
+	cursor: pointer;
+}
+
+#footer {
+	background-color: whitesmoke;
+	padding: 8px;
+	margin-top: 32px;
+	text-align: center;
+}
+
+#footer-links {                     /*remove the list style*/
+	list-style: none;
+}
+
+#footer-links li {                  /*select all li*/
+	display: inline;                /*display the elements in one line horizontally*/
+	margin:0 16px;
+}
